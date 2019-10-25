@@ -1,0 +1,2 @@
+sim11*.fits filter=lfs diff=lfs merge=lfs -text
+sim11*.psf filter=lfs diff=lfs merge=lfs -text
