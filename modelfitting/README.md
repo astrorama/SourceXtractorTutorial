@@ -9,7 +9,7 @@ The Python code for this example is in [`modelfitting.py`](modelfitting.py), and
 run as usual:
 
 ```bash
-sextractor++ --config-file modelfitting.conf
+sourcextractor++ --config-file modelfitting.conf
 ```
 
 You can see we use two types of parameters: Free and Dependent. There is

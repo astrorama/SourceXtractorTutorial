@@ -69,7 +69,7 @@ of each cell will be N columns x M rows.
 Let's check! Run SourceXtractor
 
 ```bash
-sextractor++ --config-file measurement.conf
+sourcextractor++ --config-file measurement.conf
 ```
 
 And let's use Python to verify the shape of the columns. IPython can be
@@ -96,14 +96,14 @@ All with the same shape.
 For the flags, you can check their meaning with:
 
 ```python
-print(sextractorxx.Flags.values)
+print(sourcextractor.Flags.values)
 ```
 
 It can be also used directly. For instance:
 
 ```python
 outside_first_frame_filter = (
-  catalog['aperture_r_flags'][:,0,0] & sextractorxx.Flags.OUTSIDE
+  catalog['aperture_r_flags'][:,0,0] & sourcextractor.Flags.OUTSIDE
 ).astype(bool)
 first_frame = catalog[~outside_first_frame_filter]
 ```

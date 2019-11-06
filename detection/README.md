@@ -28,9 +28,9 @@ worth mentioning:
   a [Moffat profile](https://en.wikipedia.org/wiki/Moffat_distribution).
 * `output-properties` SourceXtractor works on properties, not on columns. Each
   property may have on or more attributes that end being written into columns.
-  You can check the supported properties via `sextractor++ --list-output-properties`.
+  You can check the supported properties via `sourcextractor++ --list-output-properties`.
   You can also have a look at the actual columns  with
-  `sextractor++ --property-column-mapping-all`
+  `sourcextractor++ --property-column-mapping-all`
 * `check-image-*` The software can also generate FITS image useful for debugging
   itself, or the configuration. In this particular case, we are asking
   for images with the interpolated background, the variance map, the segmentation
@@ -42,5 +42,5 @@ worth mentioning:
 To run this example:
 
 ```bash
-sextractor++ --config-file detection.conf
+sourcextractor++ --config-file detection.conf
 ```
