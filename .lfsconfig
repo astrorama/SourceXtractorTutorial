@@ -1,0 +1,3 @@
+[lfs]
+    url = https://gitlab.astro.unige.ch/astrorama/sourcextractor-tutorial.git/info/lfs
+    pushurl = git@gitlab.astro.unige.ch:astrorama/sourcextractor-tutorial.git
