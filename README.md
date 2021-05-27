@@ -2,8 +2,8 @@
 
 In this tutorial we assume you have installed SourceXtractor in some manner,
 and that it is in your PATH environment. If it is not the case,
-please have a look at the documentation and follow any of the
-installation procedures there.
+please have a look at [the documentation from the main project](https://github.com/astrorama/SourceXtractorPlusPlus/blob/master/README.md)
+and follow any of the installation procedures there.
 
 ## Data files
 The FITS files are contained in this repository using [git lfs](https://git-lfs.github.com/). If you do not have it installed, follow these instructions
