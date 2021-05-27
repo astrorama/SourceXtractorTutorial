@@ -2,7 +2,7 @@
 
 In this tutorial we assume you have installed SourceXtractor in some manner,
 and that it is in your PATH environment. If it is not the case,
-please have a look at [the documentation from the main project](https://github.com/astrorama/SourceXtractorPlusPlus/blob/master/README.md)
+please have a look at [the documentation from the main project](https://github.com/astrorama/SourceXtractorPlusPlus/blob/develop/README.md)
 and follow any of the installation procedures there.
 
 ## Data files
