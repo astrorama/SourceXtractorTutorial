@@ -33,14 +33,14 @@ x, y = get_pos_parameters()
 
 # Parameters for the exponential profile
 ratio = FreeParameter(1, Range((0, 10), RangeType.LINEAR))
-rad = FreeParameter(lambda o: o.get_radius(), Range(lambda v, o: (.01 * v, 100 * v), RangeType.EXPONENTIAL))
-angle = FreeParameter(lambda o: o.get_angle(), Range((-np.pi, np.pi), RangeType.LINEAR))
+rad = FreeParameter(lambda o: o.radius, Range(lambda v, o: (.01 * v, 100 * v), RangeType.EXPONENTIAL))
+angle = FreeParameter(lambda o: o.angle, Range((-np.pi, np.pi), RangeType.LINEAR))
 
 # Parameters for the Sersic profile
 sersic = FreeParameter(2.0, Range((1.0, 7.0), RangeType.LINEAR))
 ratio_sersic = FreeParameter(1, Range((0, 10), RangeType.LINEAR))
-rad_sersic = FreeParameter(lambda o: o.get_radius(), Range(lambda v, o: (.01 * v, 100 * v), RangeType.EXPONENTIAL))
-angle_sersic = FreeParameter(lambda o: o.get_angle(), Range((-np.pi, np.pi), RangeType.LINEAR))
+rad_sersic = FreeParameter(lambda o: o.radius, Range(lambda v, o: (.01 * v, 100 * v), RangeType.EXPONENTIAL))
+angle_sersic = FreeParameter(lambda o: o.angle, Range((-np.pi, np.pi), RangeType.LINEAR))
 
 # Add a prior on the sersic profile
 sersic0 = 4
