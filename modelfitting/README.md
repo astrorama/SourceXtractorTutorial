@@ -29,7 +29,7 @@ Or a measured attribute, like this:
 
 ```python
 rad_sersic = FreeParameter(
-  lambda o: o.get_radius(),
+  lambda o: o.radius,
   Range(lambda v, o: (.01 * v, 100 * v), RangeType.EXPONENTIAL)
 )
 ```
