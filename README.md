@@ -6,10 +6,7 @@ please have a look at [the documentation from the main project](https://github.c
 and follow any of the installation procedures there.
 
 ## Data files
-The FITS files are contained in this repository using [git lfs](https://git-lfs.github.com/). If you do not have it installed, follow these instructions
-to get the FITS files used throughout the tutorial:
-
-To install LFS on your system:
+The FITS files are contained in this repository using [git lfs](https://git-lfs.github.com/). If you do not have `git-lfs` installed yet, you may either get the package from your Linux distribution (e.g., `sudo dnf install git-lfs` on Fedora distributions) or follow the instructions below:
 
 ```bash
 mkdir -p ~/.local/bin
@@ -20,9 +17,11 @@ rm git-lfs-linux-amd64-v2.8.0.tar.gz
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-To retrieve the data:
+Once `git lfs` is installed you may retrieve the tutorial and the FITS data with:
 
 ```bash
+git clone https://github.com/astrorama/SourceXtractorTutorial
+cd SourceXtractorTutorial
 git lfs install
 git lfs pull
 ```
