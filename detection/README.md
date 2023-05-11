@@ -3,7 +3,7 @@
 ![Coadded image and weight map](../images/coadd.png)
 
 SourceXtractor performs the detection on a single, coadded, image, which
-can be created using, for instance, [Swap](http://www.astromatic.net/software/swarp).
+can be created using, for instance, [SWarp](http://www.astromatic.net/software/swarp).
 
 Later, position and shape can be projected into the individual measurement
 frames whenever required. For more details on how does this work,
